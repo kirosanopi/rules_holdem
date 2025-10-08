@@ -119,5 +119,7 @@
     .image_poker_combination {
         width: 320px;
         height: 160px;
+        background-size: contain;
+        background-position: center; 
     }
 }
