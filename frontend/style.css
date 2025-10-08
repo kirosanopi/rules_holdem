@@ -57,3 +57,35 @@
     background-color: rgb(250, 250, 250);
     border-radius: 8px;
 }
+
+@media (max-width: 480px) {
+    .text_rules {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .head_rules_holdem {
+        font-size: 1.3rem;
+    }
+    
+    .preface_to_head {
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .container_definition {
+        width: 90%;
+        margin: 1.5rem auto 0;
+    }
+    
+    .definition_texas_holdem,
+    .purpose_holdem {
+        font-size: 1rem;
+        padding: 1rem 0.8rem;
+        line-height: 1.4;
+    }
+    
+    .preface_to_head br {
+        display: none; /* Убираем переносы на мобильных */
+    }
+}
