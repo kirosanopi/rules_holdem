@@ -115,8 +115,8 @@
     .image_poker_combination img {
         max-width: 320px;
         max-height: 160px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         border-radius: 8px;
-        margin-bottom: .6rem;
+        margin-bottom: .6rem; */
     }
 }
