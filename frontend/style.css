@@ -111,8 +111,13 @@
         display: none; 
     }
 
+    .text_poker_combination {
+        font-size: 1rem;
+        
+    }
+
     .image_poker_combination {
-        width: 360px;
-        height: 100px;
+        width: 320px;
+        height: 160px;
     }
 }
