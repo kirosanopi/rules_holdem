@@ -53,20 +53,16 @@
     font-weight: 500;
 }
 
-.image_poker_combination {
-    background-image: url('/frontend/image/combination_poker.png');
-    width: 830px;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    margin-bottom: 1.2rem;    
+.image_poker_combination img {
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.2rem;    
     transition: all 0.3s ease;
 }
 
-.image_poker_combination:hover {
+.image_poker_combination img:hover {
     transform: scale(1.005);
 }
 
@@ -116,16 +112,8 @@
         
     }
 
-    .image_poker_combination {
-        width: 100%;
+    .image_poker_combination img {
         max-width: 320px;
-        height: 160px;
-        background-size: contain; 
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: 0 auto 1.2rem;
-        display: block;
-        border-radius: 6px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
 }
